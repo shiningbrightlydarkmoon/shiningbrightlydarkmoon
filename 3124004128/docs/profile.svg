@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="308">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="30" font-size="18" font-weight="bold" fill="#111">查重程序热点函数累计耗时</text>
+<text x="12" y="70" font-size="13" fill="#333">similarity</text>
+<rect x="200" y="55" width="430" height="20" fill="#4f8cff"/>
+<text x="638" y="70" font-size="12" fill="#555">55.92 ms</text>
+<text x="12" y="104" font-size="13" fill="#333">build_vector</text>
+<rect x="200" y="89" width="418" height="20" fill="#4f8cff"/>
+<text x="626" y="104" font-size="12" fill="#555">54.37 ms</text>
+<text x="12" y="138" font-size="13" fill="#333">count_ngrams</text>
+<rect x="200" y="123" width="388" height="20" fill="#4f8cff"/>
+<text x="596" y="138" font-size="12" fill="#555">50.53 ms</text>
+<text x="12" y="172" font-size="13" fill="#333">clean_text</text>
+<rect x="200" y="157" width="29" height="20" fill="#4f8cff"/>
+<text x="237" y="172" font-size="12" fill="#555">3.78 ms</text>
+<text x="12" y="206" font-size="13" fill="#333">cosine_similarity</text>
+<rect x="200" y="191" width="11" height="20" fill="#4f8cff"/>
+<text x="219" y="206" font-size="12" fill="#555">1.54 ms</text>
+<text x="12" y="240" font-size="13" fill="#333"><genexpr></text>
+<rect x="200" y="225" width="1" height="20" fill="#4f8cff"/>
+<text x="209" y="240" font-size="12" fill="#555">0.19 ms</text>
+<text x="12" y="274" font-size="13" fill="#333"><genexpr></text>
+<rect x="200" y="259" width="1" height="20" fill="#4f8cff"/>
+<text x="209" y="274" font-size="12" fill="#555">0.19 ms</text>
+</svg>

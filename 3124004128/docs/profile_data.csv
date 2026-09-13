@@ -1,0 +1,8 @@
+function,cumulative_ms,calls
+similarity,55.921,1
+build_vector,54.372,2
+count_ngrams,50.533,2
+clean_text,3.778,2
+cosine_similarity,1.536,1
+<genexpr>,0.189,3482
+<genexpr>,0.186,3482

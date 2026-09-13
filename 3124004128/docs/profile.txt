@@ -1,0 +1,23 @@
+         10485 function calls in 0.056 seconds
+
+   Ordered by: cumulative time
+   List reduced from 24 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.056    0.056 C:\Users\ASUS\Desktop\3124004128\src\similarity.py:81(similarity)
+        2    0.000    0.000    0.054    0.027 C:\Users\ASUS\Desktop\3124004128\src\similarity.py:77(build_vector)
+        2    0.000    0.000    0.051    0.025 C:\Users\ASUS\Desktop\3124004128\src\text_utils.py:81(count_ngrams)
+        2    0.000    0.000    0.050    0.025 D:\python\Lib\collections\__init__.py:605(__init__)
+        2    0.000    0.000    0.050    0.025 D:\python\Lib\collections\__init__.py:682(update)
+        2    0.050    0.025    0.050    0.025 {built-in method _collections._count_elements}
+        2    0.000    0.000    0.004    0.002 C:\Users\ASUS\Desktop\3124004128\src\text_utils.py:19(clean_text)
+        2    0.002    0.001    0.002    0.001 {method 'lower' of 'str' objects}
+        1    0.000    0.000    0.002    0.002 C:\Users\ASUS\Desktop\3124004128\src\similarity.py:24(cosine_similarity)
+        2    0.001    0.000    0.001    0.000 {method 'findall' of 're.Pattern' objects}
+        2    0.000    0.000    0.001    0.000 {built-in method builtins.sum}
+        2    0.001    0.000    0.001    0.000 {built-in method unicodedata.normalize}
+     3481    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+     3482    0.000    0.000    0.000    0.000 C:\Users\ASUS\Desktop\3124004128\src\similarity.py:47(<genexpr>)
+     3482    0.000    0.000    0.000    0.000 C:\Users\ASUS\Desktop\3124004128\src\similarity.py:48(<genexpr>)
+
+
