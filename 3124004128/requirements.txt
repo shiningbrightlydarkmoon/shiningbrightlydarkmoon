@@ -1,0 +1,6 @@
+# 本项目运行时只依赖 Python 3 标准库，无需任何第三方包，
+# 因此这里不列出运行时依赖，保证评测环境离线也能直接运行：
+#     python main.py <原文> <抄袭版> <答案>
+#
+# 如果你要复现博客里的单元测试和覆盖率截图，请安装开发依赖：
+#     python -m pip install -r requirements-dev.txt

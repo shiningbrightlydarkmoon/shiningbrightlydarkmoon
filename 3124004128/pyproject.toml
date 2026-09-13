@@ -1,0 +1,15 @@
+[tool.ruff]
+# 与 README 声明的运行环境保持一致：程序支持 Python 3.8 及以上。
+# 把目标版本设为 py38，ruff 就不会建议那些只在 3.9+/3.10+ 才能用的写法。
+target-version = "py38"
+line-length = 100
+exclude = ["__pycache__", "htmlcov", ".venv"]
+
+[tool.ruff.lint]
+# 覆盖常见错误（E/W/F）、导入排序（I）、命名规范（N）、
+# 语法现代化（UP）、潜在缺陷（B）、简化建议（SIM/C4）和字符串拼接（ISC）。
+select = ["E", "W", "F", "I", "N", "UP", "B", "C4", "SIM", "ISC"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
